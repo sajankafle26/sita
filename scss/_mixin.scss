@@ -1,0 +1,22 @@
+@mixin flex($jc:space-between, $ai: center, $fw: wrap) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: $fw;
+}
+.btn 
+{
+    background: $brand;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    color: $w;
+    border-radius: 20px;
+
+}
+
+@mixin res {
+@media(max-width: 480px)
+{
+    @content;
+}
+}

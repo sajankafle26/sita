@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+.btn {
+  background: #99060B;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  color: #fff;
+  border-radius: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+  background: #F1F1F1;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #99060B;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (max-width: 480px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+.top {
+  background: #333333;
+  line-height: 35px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.top .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ads {
+  padding: 25px 0;
+}
+
+.ads img {
+  width: 100%;
+}
+
+header {
+  background: #fff;
+}
+
+header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header .header nav li {
+  display: inline;
+  padding: 10px;
+}
+
+header .header nav li a {
+  color: #333333;
+  font-weight: bold;
+}
+
+header .header .search {
+  width: 240px;
+  height: 45px;
+  border-radius: 25px;
+  background: #ccc;
+  border: 1px solid #99060B;
+  padding-left: 20px;
+}
+
+.mainnav {
+  border-bottom: 1px solid #333333;
+  background: #fff;
+  line-height: 55px;
+  border-top: 1px solid #333333;
+}
+
+@media (max-width: 480px) {
+  .mainnav nav ul {
+    display: none;
+  }
+}
+
+.mainnav nav ul li {
+  display: inline;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.banner {
+  margin: 25px 0;
+  background: #fff;
+  border-top: 4px solid #99060B;
+}
+
+.banner h2 {
+  background: #99060B;
+  padding: 5px 30px;
+  border-radius: 0 25px 25px 0;
+  color: #fff;
+  margin: 5px;
+  display: inline-block;
+}
+
+.banner .inner {
+  text-align: center;
+}
+
+.banner .inner h1 {
+  font-size: 3rem;
+}
+
+@media (max-width: 480px) {
+  .banner .inner h1 {
+    font-size: 1.4rem;
+  }
+}
+
+.banner .inner img {
+  max-width: 80%;
+}
+
+.wtitle {
+  background: #99060B;
+  padding: 5px 30px;
+  border-radius: 0 25px 25px 0;
+  color: #fff;
+  margin: 5px;
+  display: inline-block;
+}
+
+.light {
+  background: #fff;
+  padding: 15px;
+}
+
+.thumb {
+  width: 120px;
+  padding: 15px;
+}
+
+.block1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.block1_left {
+  width: 48%;
+  border-top: 3px solid #99060B;
+}
+
+@media (max-width: 480px) {
+  .block1_left {
+    width: 100%;
+  }
+}
+
+.block1_left img {
+  width: 100%;
+}
+
+.block1_right {
+  width: 48%;
+  border-top: 3px solid #99060B;
+}
+
+@media (max-width: 480px) {
+  .block1_right {
+    width: 100%;
+  }
+}
+
+.block1_right .light {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+
+.block2 {
+  margin-top: 25px;
+  border-top: 3px solid #99060B;
+}
+
+.owl-nav {
+  position: absolute;
+  top: -50px;
+  right: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  font-size: 33px;
+}
+
+.owl-carousel button.owl-dot {
+  width: 10px;
+  height: 10px;
+  margin: 2px;
+  background: #999;
+}
+
+.owl-dots {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.copyright {
+  background: #000;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+footer .light {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 26px;
+}
+
+@media (max-width: 480px) {
+  footer .light {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+footer .light .fbox {
+  width: 33%;
+}
+
+.maincontent {
+  margin: 20px 0;
+}
+
+.maincontent .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.maincontent main {
+  width: 68%;
+}
+
+@media (max-width: 480px) {
+  .maincontent main {
+    width: 100%;
+  }
+}
+
+.maincontent aside {
+  width: 30%;
+}
+
+@media (max-width: 480px) {
+  .maincontent aside {
+    width: 100%;
+  }
+}
+
+.maincontent .cinner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.maincontent .cinner .ibox {
+  width: 32%;
+  background: #fff;
+}
+
+@media (max-width: 480px) {
+  .maincontent .cinner .ibox {
+    width: 100%;
+  }
+}
+
+.maincontent .cinner .ibox img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
